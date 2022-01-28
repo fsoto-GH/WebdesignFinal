@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Force IE to use latest render engine-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Charset and scaling-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" href="../images/favicon.png" type="image/x-ico">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Additional Styling-->
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <title>Eventos Galindo: Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Navigation Boilerplate-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="../images/logos/logo-sm.png" alt="Eventos Galindo Logo" class="d-lg-none logo-header">
+                <img src="../images/logos/logo.png" alt="Eventos Galindo Logo" class="d-none d-lg-block logo-header">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Flowers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Birthday</a>
+                            <a class="dropdown-item" href="#">Graduation</a>
+                            <a class="dropdown-item" href="#">Sympathy</a>
+                            <a class="dropdown-item" href="#">Love &amp; Romance</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Content-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Choose how you would like to contact us.</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-sm-12 mb-3">
+                <img class="fill-cell" src="../images/contact.jpg" width="100" alt="messaging icon">
+            </div>
+            <div class="col-lg-7 col-sm-12 mb-3">
+
+                <div class="row">
+                    <div class="col-lg-5 col-sm-12">
+                        <a href="mailto:fsoto@my.dom.edu?subject=[Flower%20Inquiry]%20Requesting%20Information"><img
+                                class="icon" src="../images/icons/email.svg" alt="email icon">fsoto@my.dom.edu</a><br>
+                        <a href="tel:7738185920"><img class="icon" src="../images/icons/phone.svg"
+                                alt="phone icon">(773) 818-5920</a><br>
+                        <a href="https://tinyurl.com/ybt2ee5l" target="_blank"><img class="icon"
+                                src="../images/icons/map.svg" alt="map icon">Our Store<br>
+                        </a><span class="address">4207 S Sacramento Avenue
+                            Chicago, IL 60609</span><br>
+                        <table class="mb-3">
+                            <caption>Store Hours</caption>
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Mon - Fri
+                                    </td>
+                                    <td>
+                                        8:00am - 7:00pm
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Sat - Sun
+                                    </td>
+                                    <td>
+                                        9:00am - 5:00pm
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-7 col-sm-12">
+                        <a href="https://tinyurl.com/ybt2ee5l" target="_blank">
+                            <div id="map"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Form-->
+        <form action="quote.html" method="POST">
+            <h5>Want to set up an appointment to discuss your big event and get a free quote?</h5><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="fname">First name:</label>
+                        <input id="fname" name="fname" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="lname">Last name:</label>
+                        <input id="lname" name="lname" type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="phone">Phone #</label>
+                        <input id="phone" name="phone" type="tel" placeholder="7738185920" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="form-group">
+                        <label for="eventdate">Phone #</label>
+                        <input id="eventdate" name="eventdate" type="date" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="service">What kind of service are you looking for?</label><br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-12">
+                                <label><input type="radio" name="Service" required> Wedding</label><br>
+                                <label><input type="radio" name="Service"> Anniversary</label><br>
+                                <label><input type="radio" name="Service"> Birthday</label><br>
+                            </div>
+                            <div class="col-lg-4 col-sm-12">
+                                <label><input type="radio" name="Service"> Sympathy</label><br>
+                                <label><input type="radio" name="Service"> Other</label>
+                                <input type="text" name="Other">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="comments">
+                        Do you have anything in mind regarding your event? Colors? Flowers?<br>
+                        Drop those ideas here so we can get a better picture of what you seek.
+                    </label>
+                    <textarea name="comments" class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="reset" value="Start over" class="btn btn-danger fullspan">
+                </div>
+                <div class="col-sm-6">
+                    <input type="submit" value="Get a quote!" class="btn btn-warning fullspan">
+                </div>
+            </div>
+        </form>
+
+        <!--Footer-->
+        <footer class="bg-dark mt-3 pt-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1 col-sm-12 text-center">
+                        <a href="index.html">
+                            <img src="../images/logos/logo-xs.png" alt="Eventos Galindo Logo" class="d-none d-xl-block d-lg-block d-xl-none logo-footer">
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-sm-12 mb-3">
+                        <h5>Navigate</h5>
+                        <div class="btn-group dropup" role="group" aria-label="nested options">
+                            <button type="button" class="btn btn-secondary"><a href="index.html">Home</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="gallery.html">Gallery</a></button>
+                            <div class="btn-group" role="group">
+                                <button id="flowers" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Flowers
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="flowers">
+                                    <a class="dropdown-item" href="#">Birthday</a>
+                                    <a class="dropdown-item" href="#">Graduation</a>
+                                    <a class="dropdown-item" href="#">Sympathy</a>
+                                    <a class="dropdown-item" href="#">Love &amp; Romance</a>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-secondary"><a href="contact.html">Contact</a></button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-sm-12 mb-3">
+                        <h5>Follow us!</h5>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href=""><img class="socialmedia" src="../images/icons/ig.png"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href=""><img class="socialmedia" src="../images/icons/sc.png"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href=""><img class="socialmedia" src="../images/icons/fb.png"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href=""><img class="socialmedia" src="../images/icons/twitter.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 mt-5 mb-3">
+                        <h5>Eventos Galindo &copy; 2020</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Bootstrap JS & JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!--Additional JS-->
+    <script src="../js/page.js"></script>
+    <script src="../js/googlemaps.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8qtGNjVi84T0et6F0Y-vgqJqml7eLNaY&callback=initializeMap"></script>
+</body>
+
+</html>

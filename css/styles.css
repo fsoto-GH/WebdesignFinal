@@ -1,0 +1,158 @@
+/* Styles for All Devices */
+
+html {
+    overflow-y: scroll;
+  }
+
+nav {
+    margin-bottom: 20px !important;
+}
+
+/* Adds a bit more spacing to navbar (desktop) items */
+.navbar-nav > li{
+    padding: 0 20px;
+  }
+
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: black;
+    width: 8%;
+}
+
+.fill-cell {
+    width: 100%;
+}
+
+.icon {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+form {
+    border: 1px solid gray;
+    padding: 1em;
+}
+
+.fullspan {
+    margin-top: 2em;
+    width: 100%;
+}
+
+caption {
+    caption-side: top !important;
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+
+td:nth-child(1) {
+    padding-right: 1em;
+    border-right: 1px solid black;
+}
+
+td:nth-child(2) {
+    padding-left: 1em;
+}
+
+th {
+    text-align: center;
+}
+
+footer {
+    color: darkgray;
+    overflow: visible;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.address {
+    text-decoration: none;
+}
+
+.socialmedia {
+    width: 2.5em;
+    opacity: 50%;
+    margin-left: 10px;
+}
+
+.socialmedia:hover {
+    opacity: 70%;
+    transition: linear opacity 0.5s;
+}
+
+.logo-footer {
+    border-radius: 5px;
+    background-color: rgb(131, 130, 130);
+    width: 100%;
+}
+
+.logo-header {
+    width: 200px;
+}
+
+.not-opaque-img {
+    opacity: 90%;
+}
+
+.not-opaque-img:hover {
+    opacity: 100%;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+label + span, #otherError {
+    color: red;
+}
+
+.clear-both {
+    clear:both;
+}
+
+a.anchorfirst {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -105px;
+    visibility: hidden;
+}
+
+#shoppingcart, #cartqty, #cost, #rmbtns {
+    list-style-type: none;
+}
+
+/* Specific Styles */
+@media only screen and (max-width: 992px) {
+    #map {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
